@@ -16,7 +16,7 @@ from ONEcityAPI.user import User
 from ONEcityAPI import ONEcityAPI
 
 user = User('123456789', 'password', 'customerID', 'customerSite')
-api = ONEcityAPI(user)
+api = ONEcityAPI.ONEcityAPI(user)
 ```
 
 After creating the `ONEcityAPI` object, you can call the `get_water_consumption` method to retrieve the water consumption data and the `get_customer_info` method to retrieve the customer information.
