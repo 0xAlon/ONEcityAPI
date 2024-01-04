@@ -4,7 +4,7 @@ DESCRIPTION = 'A Python package for interacting with the ONEcity API'
 LONG_DESCRIPTION = 'This package provides a simple and intuitive interface for interacting with the ONEcity API. It includes features for getting water consumption data and customer info.'
 
 setup(
-    name="ONEcityAPI.py",
+    name="ONEcityAPI",
     version='{{VERSION_PLACEHOLDER}}',
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
@@ -14,5 +14,5 @@ setup(
     url="https://github.com/0xAlon/ONEcityAPI",
     packages=find_packages(),
     install_requires=["requests", "urllib3"],
-    keywords='ONEcityAPI.py'
+    keywords='ONEcityAPI'
 )
